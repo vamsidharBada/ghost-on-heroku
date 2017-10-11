@@ -33,6 +33,12 @@
       "description": "Optional custom CDN asset host url, if using S3 file storage.",
       "required": false
     },
+    "MAILGUN_SMTP_LOGIN": {
+      "description": "SMTP LOGIN"
+    },
+    "MAILGUN_SMTP_PASSWORD": {
+      "description": "SMTP PASSWORD"
+    },
     "PGSSLMODE": {
       "description": "PostgreSQL SSL connection mode. Set to 'require' to force SSL. Unset it to use the default.",
       "required": false,
